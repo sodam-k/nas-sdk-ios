@@ -23,14 +23,14 @@ let package = Package(
         .target(
             name: "NAS",
             dependencies: ["NAS_Binary"],
-            path: "NaverAdsServices/SPM_Dummy"
+            path: "NaverAdsServices/SPM/Sources"
         ),
 
         // Test
         .testTarget(
             name: "NaverAdsServicesTests",
             dependencies: ["NAS"],
-            path: "NaverAdsServices/SPM_Tests"
+            path: "NaverAdsServices/SPM/Tests"
         )
     ]
 )
